@@ -19,7 +19,7 @@ namespace TP1
 
         private void button1_MouseClick(object sender, MouseEventArgs e)
         {
-
+            this.label1.Text = " Hello " + this.textBox1.Text;
         }
     }
 }
